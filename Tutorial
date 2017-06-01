@@ -1,0 +1,19 @@
+Insert code into any HTML page: 
+
+<style type="text/css">
+#bp_toc { width:100%;margin: 0 auto;padding: 0;}
+#bp_toc tr:nth-child(2n) {background: #f8f8f8;}
+.toc-note { margin-bottom:10px;}
+span.toc-note {font-size: 14px;color: #49BA86;text-decoration: none;}
+.toc-header-col1, .toc-header-col2, .toc-header-col3 { background:#49BA86; padding:6px; border-right:1px solid #fff; border-bottom:1px solid #fff; text-align: center;text-transform:normal; } 
+.toc-header-col2{ width:15%;} 
+.toc-header-col3 { width:35%;}
+.toc-entry-col1, .toc-entry-col2, .toc-entry-col3 { padding:10px; border-right:1px solid #fff; border-bottom:1px solid #fff; } 
+td.toc-entry-col2 {text-align: center;}
+.toc-header-col1 a:link,.toc-header-col1 a:visited,.toc-header-col2 a:link,.toc-header-col2 a:visited,.toc-header-col3 a:link,.toc-header-col3 a:visited {font-size: 14px;text-decoration: none;color: #fff;font-weight: 700;letter-spacing: 0.5px;}
+.toc-header-col1 a:hover,.toc-header-col2 a:hover,.toc-header-col3 a:hover {text-decoration: none;}
+</style>
+<div id="bp_toc">
+Loading data, please wait...</div>
+<script src="https://cdn.rawgit.com/vnltue/Table-Of-Contents-for-Blogger/master/sitemap.js" type="text/javascript"></script>
+<script src="/feeds/posts/summary?alt=json-in-script&amp;max-results=9999&amp;callback=loadtoc" type="text/javascript"></script>
